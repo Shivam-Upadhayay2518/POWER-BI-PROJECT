@@ -1,74 +1,94 @@
 <div align="center">
 
-<img src="powerbi_readme_assets/powerbi-3d-icon.svg" width="760" alt="3D Power BI Data Analytics">
+<img src="https://cdn.simpleicons.org/powerbi/F2C811" width="110" alt="Power BI">
 
 # 📊 Power BI Data Analytics Portfolio
 
-### Interactive dashboards built with **Power BI, DAX & Data Visualization**
+### Interactive Dashboards • DAX • Data Visualization • Business Intelligence
 
-[![Power BI](https://img.shields.io/badge/Power%20BI-DAX-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](#)
-[![Data Analytics](https://img.shields.io/badge/Data-Analytics-6C4AB6?style=for-the-badge)](#)
-[![Interactive Dashboard](https://img.shields.io/badge/Interactive-Dashboard-7B2CBF?style=for-the-badge)](#)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-6C4AB6?style=for-the-badge)
+![Data Analytics](https://img.shields.io/badge/Data%20Analytics-7B2CBF?style=for-the-badge)
+![Business Intelligence](https://img.shields.io/badge/Business%20Intelligence-4B2E83?style=for-the-badge)
 
 </div>
 
 ---
 
-## 🚀 About This Repository
+# 🚀 About This Repository
 
-This repository contains my practical **Power BI dashboard projects**, created to transform raw data into interactive visual reports and meaningful business insights.
+This repository contains my practical **Power BI projects**, focused on transforming datasets into interactive dashboards and extracting meaningful business insights.
 
-The projects demonstrate hands-on experience with:
+The projects demonstrate hands-on experience in:
 
 - 📊 Data Visualization
-- 🧮 DAX & Calculated Measures
+- 🧮 DAX Measures
+- 🎯 KPI Analysis
 - 🎛️ Interactive Slicers & Filters
 - 📈 Trend Analysis
-- 🔍 KPI Analysis
-- 📋 Business Intelligence
+- 🔍 Comparative Analysis
+- 🏆 Top & Bottom Performer Analysis
+- 💼 Business Intelligence
 - 🎨 Dashboard Design
 
 ---
 
 # 🟣 Project 01 — Retail Sales Analysis
 
-A multi-page Power BI dashboard focused on analyzing **sales, profit, orders, units sold and product performance**.
+## 📌 Overview
 
-## 📸 Dashboard Preview
+A **4-page Power BI dashboard** developed to analyze retail sales performance, profitability, orders, units sold, promotions, advertising channels and product performance.
 
-<img src="powerbi_readme_assets/project-01-dashboard.png" width="100%" alt="Retail Sales Dashboard">
+---
 
-### 📌 Key KPIs
+## 📊 Key Performance Indicators
 
-| Metric | Value |
+| KPI | Value |
 |---|---:|
 | 💰 Total Sales | **129M** |
 | 📈 Total Profit | **24.46M** |
 | 🛒 Total Orders | **3,510** |
 
-### 📊 Dashboard Analysis
+---
 
-#### Page 1 — Sales Overview
+## 📑 Dashboard Pages
+
+### 01 — Sales Overview
+
+The first page provides an overall view of business performance through:
+
 - Total Sales
 - Total Profit
-- Total Orders
+- Total Number of Orders
 - Total Sales Trend
 - Discount Value by Promotion
 - Average Profit by Advertising Channel
 
-#### Page 2 — Period Comparison
-- Net Sales comparison
-- Total Profit comparison
-- Total Units Sold comparison
-- Interactive date filters
+### 02 — Period Comparison
 
-#### Page 3 — Filtered KPI Analysis
+Interactive date filters are used to compare:
+
+- Net Sales
+- Total Profit
+- Total Units Sold
+
+The dashboard compares two selected periods to understand changes in business performance.
+
+### 03 — Filtered Performance Analysis
+
+This page focuses on filtered KPI analysis using:
+
 - Sales Filter
 - Profit Filter
 - Unit Sold Filter
-- KPI comparison visuals
+- Net Sales
+- Total Units Sold
+- Total Profit
 
-#### Page 4 — Product Performance
+### 04 — Product Performance
+
+Product-level analysis includes:
+
 - Top 5 Products by Total Sales
 - Bottom 5 Products by Total Sales
 - Top 5 Products by Unit Sold
@@ -76,48 +96,56 @@ A multi-page Power BI dashboard focused on analyzing **sales, profit, orders, un
 - Top 5 Products by Profit
 - Bottom 5 Products by Profit
 
-### 🏆 Highlight
+### 🏆 Product Highlight
 
-**Apple iPhone 14** appears as the leading product in the displayed top-product analysis, including total sales and profit.
+**Apple iPhone 14** appears as a leading product in the displayed top-product analysis, including Total Sales and Profit.
 
 ---
 
 # 🟪 Project 02 — UPI Transactions Data Analysis
 
-An interactive Power BI dashboard designed to analyze **UPI transaction behavior, monthly transaction trends, transaction purposes and overall transaction performance**.
+## 📌 Overview
 
-## 📸 Dashboard Preview
+An interactive Power BI dashboard developed to analyze **UPI transaction performance, monthly transaction trends and transaction purposes**.
 
-<img src="powerbi_readme_assets/project-02-dashboard.png" width="100%" alt="UPI Transactions Dashboard">
+---
 
-### 📌 Key KPIs
+## 📊 Key Performance Indicators
 
-| Metric | Value |
+| KPI | Value |
 |---|---:|
-| 💰 Total Amount | **₹69,33,156** |
+| 💰 Total Transaction Amount | **₹69,33,156** |
 | 🔄 Total Transactions | **7,000** |
 | ✅ Success Rate | **85.71%** |
 
-### 📊 Dashboard Features
+---
 
-- Monthly Transaction Amount Analysis
-- Transaction Purpose Analysis
-- Interactive Amount Line Chart
-- Amount Column Chart
-- Balance Line Chart
-- Balance Column Chart
-- Transaction Type Filter
-- Bank Name Sent Filter
-- Bank Name Received Filter
-- Gender Filter
-- Age Group Filter
-- Merchant Filter
-- Payment Method Filter
-- City Filter
-- Device Type Filter
-- Purpose Filter
+## 📈 Monthly Transaction Analysis
 
-### 🥧 Transaction Purpose Distribution
+The dashboard analyzes **monthly transaction amounts throughout 2024**.
+
+| Month | Transaction Amount |
+|---|---:|
+| January | 510K |
+| February | 655K |
+| March | 666K |
+| April | 490K |
+| May | 496K |
+| June | 500K |
+| July | 638K |
+| August | 653K |
+| September | 649K |
+| October | 523K |
+| November | 632K |
+| December | 521K |
+
+### 🔎 Observation
+
+The displayed monthly transaction amount ranges from approximately **₹490K to ₹666K**, with **March showing the highest displayed monthly value at ₹666K**.
+
+---
+
+## 🥧 Transaction Purpose Analysis
 
 | Purpose | Share |
 |---|---:|
@@ -127,36 +155,103 @@ An interactive Power BI dashboard designed to analyze **UPI transaction behavior
 | 💳 Bill Payment | **21.20%** |
 | 🛍️ Shopping | **13.99%** |
 
-### 📈 Monthly Transaction Analysis
+### 🔎 Observation
 
-The dashboard analyzes transaction amounts across all months of **2024**.
+Food represents the largest displayed transaction-purpose share at **21.75%**, closely followed by Travel at **21.67%**.
 
-Displayed monthly transaction values range from approximately **₹490K to ₹666K**.
+---
+
+## 🎛️ Interactive Filters
+
+The UPI dashboard provides filtering capabilities for:
+
+- Bank Name Sent
+- Bank Name Received
+- Gender
+- Device Type
+- City
+- Merchant Name
+- Age Group
+- Purpose
+- Transaction Type
+- Payment Method
+
+---
+
+## 🔄 Dynamic Visual Analysis
+
+The dashboard provides multiple analytical views:
+
+- Amount Line
+- Amount Column
+- Balance Line
+- Balance Column
+
+This allows different perspectives of transaction and balance trends within the same dashboard.
 
 ---
 
 # 🧠 Skills Demonstrated
 
-| Category | Skills |
-|---|---|
-| 📊 Visualization | Power BI, Charts, KPI Cards |
-| 🧮 Calculations | DAX Measures |
-| 🎛️ Interactivity | Slicers, Filters, Visual Switching |
-| 📈 Analysis | Trend Analysis, Comparisons |
-| 💼 Business Intelligence | KPI & Performance Analysis |
-| 🎨 Design | Dashboard Layout & Visual Storytelling |
+## 📊 Power BI
+
+- Dashboard Development
+- Data Visualization
+- KPI Cards
+- Interactive Reports
+- Slicers
+- Filters
+- Visual Formatting
+
+## 🧮 DAX
+
+- Measures
+- Aggregations
+- KPI Calculations
+- Percentage Calculations
+- Analytical Metrics
+
+## 📈 Data Analytics
+
+- Trend Analysis
+- Period Comparison
+- Product Performance Analysis
+- Transaction Analysis
+- Top & Bottom Performer Analysis
+- KPI-Based Analysis
 
 ---
 
 # 🛠️ Tools & Technologies
 
-- **Microsoft Power BI**
-- **DAX**
-- **Data Visualization**
-- **Data Analytics**
-- **Business Intelligence**
+| Technology | Purpose |
+|---|---|
+| 🟡 **Microsoft Power BI** | Dashboard Development |
+| 🧮 **DAX** | Calculations & Measures |
+| 📊 **Power BI Visuals** | Data Visualization |
+| 💼 **Business Intelligence** | Performance Analysis |
 
 ---
-│   └── powerbi-3d-icon.svg
-│
-└── README.md
+
+# 🔄 Analytics Workflow
+
+```text
+                 RAW DATA
+                    │
+                    ▼
+            DATA PREPARATION
+                    │
+                    ▼
+             DATA MODELING
+                    │
+                    ▼
+            DAX CALCULATIONS
+                    │
+                    ▼
+           DATA VISUALIZATION
+                    │
+                    ▼
+        INTERACTIVE DASHBOARD
+                    │
+                    ▼
+           BUSINESS INSIGHTS
